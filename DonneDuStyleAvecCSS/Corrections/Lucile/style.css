@@ -1,0 +1,52 @@
+img{
+	width: 220px;
+	height: 240px;
+	opacity: 0.4;
+}
+
+figure{
+	width: 220px;
+	height: 240px;
+}
+
+figure .reward{
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border-radius: 15px;
+	padding: 10px 35px;
+	position: absolute;
+	top: 15px;
+	margin: 10px;
+	opacity: 1
+}
+
+span{
+	color: orange;
+}
+
+figure .name{
+	font-style: bold;
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	top: 150px;
+	left: 90px;
+}
+
+img:hover{
+	opacity: 1;
+}
+
+figure:hover .name{
+	font-style: normal;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 220px;
+	left: 120px;
+}
+
+figure:hover .reward{
+	display: none;
+}

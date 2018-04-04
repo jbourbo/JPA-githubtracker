@@ -1,0 +1,47 @@
+.orange{
+	color:orange;
+}
+
+#gandalf img{
+	opacity:0.5;	
+}
+
+#gandalf img:hover{
+	opacity:1;	
+}
+
+#gandalf img:hover ~ #nom{
+	top:460px;
+	left:200px;
+	font-size:200%;
+}
+
+#gandalf img:hover ~ #reward{
+	display:none;
+}
+
+
+#reward{
+	position:absolute;
+	opacity: 0.8;
+	top:20px;
+	left:30px;
+	width:460px;
+	height:140px;
+	padding-top: 10px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	text-align: center;
+	z-index:1;
+	font-size:200%;
+	display:block;
+}
+
+#nom{
+	position:absolute;
+	top:250px;
+	left:100px;
+	z-index:1;
+	font-size:400%;
+	color:white;
+}
